@@ -1,8 +1,12 @@
 image: cibuilds/hugo:0.157.0
 
+stages:
+  - deploy
+
 pages:
+  stage: deploy
   script:
-    - hugo
+    - hugo --minify
   artifacts:
     paths:
       - public
