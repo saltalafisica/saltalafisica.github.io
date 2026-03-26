@@ -3,7 +3,7 @@ name: Build and Deploy Hugo Site
 on:
   push:
     branches:
-      - main # or master, whatever your build repo uses
+      - master # or master, whatever your build repo uses
 
 jobs:
   deploy:
