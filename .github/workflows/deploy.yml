@@ -24,7 +24,7 @@ jobs:
           hugo-version: "0.157.0"
 
       - name: Build Hugo site
-        run: hugo --minify --disableFastRender
+        run: hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
