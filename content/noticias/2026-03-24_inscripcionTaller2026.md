@@ -1,6 +1,6 @@
 ---
 title: "Abren las inscripciones para el taller “La Física al Alcance de Todos” del profesor Daniel Córdoba"
-date: 2022-10-15
+date: 2026-03-24
 draft: false
 layout: "blog"
 ---
