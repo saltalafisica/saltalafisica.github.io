@@ -4,7 +4,7 @@ El carrusel que esta en la primer pagina esta en la carpeta `data/carousel/*.yam
 
 La imagen de fondo del carrusel es la imagen `static/img/photogrid.png`.
 
-Los logos `public/img/logo`.
+Los logos `static/img/logo*`.
 
 ## Scripts utiles
 
