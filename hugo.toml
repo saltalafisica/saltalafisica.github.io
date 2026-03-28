@@ -41,6 +41,32 @@ pluralizelisttitles = false
     weight     = 5
 
 [[menu.main]]
+    name       = "Nuestra historia"
+    url        = "/quienessomos/historia/"
+    weight     = 1
+    parent     = "menu.quienessomos"
+
+[[menu.main]]
+    name       = "En los medios"
+    url        = "/quienessomos/enlosmedios/"
+    weight     = 2
+    parent     = "menu.quienessomos"
+
+[[menu.main]]
+    name       = "Reconocimientos"
+    url        = "/quienessomos/reconocimientos/"
+    weight     = 3
+    parent     = "menu.quienessomos"
+
+[[menu.main]]
+    name       = "Frases"
+    url        = "/quienessomos/frases/"
+    weight     = 4
+    parent     = "menu.quienessomos"
+
+# ---
+
+[[menu.main]]
     name       = "Noticias"
     identifier = "menu.noticias"
     url        = "/noticias/"
@@ -64,20 +90,39 @@ pluralizelisttitles = false
     url        = "/contact/"
     weight     = 7
 
+# --- 
+
 [[menu.main]]
-    identifier = "apoyanos"
     name       = "Apoyanos"
-    url        = "/apoyanos/"
+    identifier = "menu.apoyanos"
+    url        = ""
     weight     = 8
 
+[[menu.main]]
+    name       = "Donaciones"
+    url        = "/apoyanos/donaciones/"
+    weight     = 1
+    parent     = "menu.apoyanos"
+
+[[menu.main]]
+    name       = "Charlas"
+    url        = "/apoyanos/charlas/"
+    weight     = 1
+    parent     = "menu.apoyanos"
 
 # Top bar social links menu
 
-# [[menu.topbar]]
-#     weight = 2
-#     name = "GitHub"
-#     url = "https://github.com/devcows/hugo-universal-theme"
-#     pre = "<i class='fab fa-2x fa-github'></i>"
+[[menu.topbar]]
+    weight = 2
+    name = "GitHub"
+    url = "https://github.com/saltalafisica/saltalafisica.github.io"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "RSS"
+    url = "https://saltalafisica.github.io/index.xml"
+    pre = "<i class='fa-2x fa-solid fa-square-rss'></i>"
 
 [[menu.topbar]]
     weight = 3
