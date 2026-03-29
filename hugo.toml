@@ -64,6 +64,12 @@ pluralizelisttitles = false
     weight     = 4
     parent     = "menu.quienessomos"
 
+[[menu.main]]
+    name       = "Becas Daniel Cordoba"
+    url        = "/quienessomos/becasDanielCordoba/"
+    weight     = 4
+    parent     = "menu.quienessomos"
+
 # ---
 
 [[menu.main]]
