@@ -34,11 +34,13 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 1
 
+# --- 
+
 [[menu.main]]
     name       = "Quienes Somos"
     identifier = "menu.quienessomos"
     url        = "/quienessomos/"
-    weight     = 5
+    weight     = 2
 
 [[menu.main]]
     name       = "Nuestra historia"
@@ -82,19 +84,19 @@ pluralizelisttitles = false
     name       = "Blog"
     identifier = "menu.blog"
     url        = "/blog/"
-    weight     = 5
+    weight     = 4
 
 [[menu.main]]
     name       = "FAQ"
     identifier = "menu.faq"
     url        = "/faq/"
-    weight     = 6
+    weight     = 7
 
 [[menu.main]]
     identifier = "contact"
     name       = "Contacto"
     url        = "/contact/"
-    weight     = 7
+    weight     = 8
 
 # --- 
 
@@ -102,7 +104,7 @@ pluralizelisttitles = false
     name       = "Apoyanos"
     identifier = "menu.apoyanos"
     url        = ""
-    weight     = 8
+    weight     = 6
 
 [[menu.main]]
     name       = "Donaciones"
@@ -122,7 +124,7 @@ pluralizelisttitles = false
     name       = "Guias"
     identifier = "menu.guias"
     url        = ""
-    weight     = 8
+    weight     = 3
 
 [[menu.main]]
     name       = "Guias Nivel 1 Temario A"
