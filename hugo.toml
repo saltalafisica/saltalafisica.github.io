@@ -86,17 +86,25 @@ pluralizelisttitles = false
     url        = "/blog/"
     weight     = 4
 
+# --- 
+
 [[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
+    name       = "Taller"
+    identifier = "menu.taller"
+    url        = ""
     weight     = 7
 
 [[menu.main]]
-    identifier = "contact"
-    name       = "Contacto"
-    url        = "/contact/"
-    weight     = 8
+    name       = "Preguntas Frecuentes"
+    parent     = "menu.taller"
+    url        = "/taller/faq/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Calendario de clases"
+    parent     = "menu.taller"
+    url        = "/taller/calendariotaller/"
+    weight     = 1
 
 # --- 
 
@@ -358,3 +366,8 @@ pluralizelisttitles = false
     category = "categories"
     tag = "tags"
     author = "authors"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

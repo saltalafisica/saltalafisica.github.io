@@ -12,6 +12,16 @@ slug = 'calendariotaller'
 <iframe src="https://drive.google.com/file/d/1dZKpbB3a0fu3K3OhtxGN6H0ckB8Utf8r/preview" width="640" height="480" allow="autoplay"></iframe>
 <hr> -->
 
+<!-- <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwfrkEGBLubktBM3jWBTY8wRixkm7siutXo9TASmSYncHEFH1Jq5xPf-GiHN6hw7LCw5TakTXJ5TAa/pubhtml?widget=true&amp;headers=false"></iframe> -->
+
+<iframe 
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwfrkEGBLubktBM3jWBTY8wRixkm7siutXo9TASmSYncHEFH1Jq5xPf-GiHN6hw7LCw5TakTXJ5TAa/pubhtml?widget=true&headers=false"
+  width="100%" 
+  height="600"
+  frameborder="0">
+</iframe>
+
+<!--
 | Mes        | Fecha      | Nivel 1 | Nivel 3 | Estado      | Observaciones                              |
 | ---------- | ---------- | ------- | ------- | ----------- | ------------------------------------------ |
 | Marzo      | 21/03/2026 | Anf. A  | —       | INSCRIPCIÓN | —                                          |
@@ -50,4 +60,4 @@ slug = 'calendariotaller'
 | Noviembre  | 14/11/2026 | Anf. A  | Anf. C  | —           | —                                          |
 | Noviembre  | 21/11/2026 | Anf. A  | Anf. C  | SIN CLASES  | Día de la Soberanía Nacional (a confirmar) |
 | Noviembre  | 28/11/2026 | Anf. A  | Anf. C  | —           | Día no docente (a confirmar)               |
-| Diciembre  | 05/12/2026 | Anf. A  | —       | ACTO        | Cierre                                     |
+| Diciembre  | 05/12/2026 | Anf. A  | —       | ACTO        | Cierre                                     | -->
