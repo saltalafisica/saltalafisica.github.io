@@ -34,7 +34,7 @@ pluralizelisttitles = false
     url        = "/"
     weight     = 1
 
-# --- 
+# ---
 
 [[menu.main]]
     name       = "Quienes Somos"
@@ -86,7 +86,7 @@ pluralizelisttitles = false
     url        = "/blog/"
     weight     = 4
 
-# --- 
+# ---
 
 [[menu.main]]
     name       = "Taller"
@@ -106,7 +106,13 @@ pluralizelisttitles = false
     url        = "/taller/calendariotaller/"
     weight     = 1
 
-# --- 
+[[menu.main]]
+    name       = "Bibliografia"
+    parent     = "menu.taller"
+    url        = "/taller/Bibliografia/"
+    weight     = 3
+
+# ---
 
 [[menu.main]]
     name       = "Apoyanos"
@@ -126,7 +132,7 @@ pluralizelisttitles = false
     weight     = 1
     parent     = "menu.apoyanos"
 
-# --- 
+# ---
 
 [[menu.main]]
     name       = "Guias"
@@ -276,7 +282,7 @@ pluralizelisttitles = false
         <br>Salta
         <br>
         <strong>Argentina</strong>
-        
+
       </p>
       """
 
