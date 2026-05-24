@@ -274,7 +274,7 @@ pluralizelisttitles = false
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    contact_url = "/contact"
+    # contact_url = "/contact"
     address = """<p class="text-uppercase"><strong>Asociacion Civil Ciencia al Alcance de todos</strong>
         <br>Las Moreras 271
         <br>4400
