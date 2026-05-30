@@ -1,0 +1,165 @@
+\documentclass[article, a4paper, amsfonts, amssymb, amsmath, reprint, showkeys, nofootinbib, twoside]{revtex4-1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[colorinlistoftodos, color=green!40, prependcaption]{todonotes}
+%\input{preamble}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{color}
+\usepackage{boldline}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem} % para unificar numeracion en los enumerate
+\usepackage{caption}
+\usepackage{qrcode}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[pdftex, pdftitle={Article},pdfauthor={Author},pagebackref=true,colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=red]{hyperref} % For hyperlinks in the PDF
+%\setlength{\marginparwidth}{2.5cm}
+
+\bibliographystyle{apsrev4-1}
+\definecolor{saltalafisica}{HTML}{2D947F}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{ \LARGE \textcolor{saltalafisica}{GUÍA DE REFRACCIÓN DE LA LUZ} \\ NIVEL FUNDAMENTOS \\ \hrulefill \\ }
+
+\author{\large \textbf{\textcolor{saltalafisica}{La Física al Alcance de Todos - Prof. Daniel Córdoba} }}
+\homepage{https://saltalafisica.github.io/}
+\affiliation{}
+\begin{abstract}
+\end{abstract}
+%\keywords{first keyword, second keyword, third keyword}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{fancy}
+\fancyhead[L]{
+        \begin{picture}(0,0)
+        \put(0,-70){\includegraphics[width=3cm, height=3cm]{Imagenes/gofito_sinfondo.png}}
+        \end{picture}
+    }
+\renewcommand{\headrulewidth}{0.pt}
+\pagestyle{plain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{fondocuadros}{RGB}{236,231,231}
+
+  
+        \begin{center}
+            Accede a todas las guías de problemas desde el siguiente código:
+            
+            %\qrset{nolink, height=4cm, padding}
+            %\qrcode{https://saltalafisica.ar/n1/guias/}
+            \includegraphics[height=3cm]{Imagenes/qr.jpeg}
+        \end{center}
+
+    %\center{\Large \bf Preguntas conceptuales}
+
+    \begin{center}
+        {\Large \bf Preguntas conceptuales}
+    \end{center}
+    
+    \begin{enumerate}[start=1, label=\textbf{\arabic*.}]
+        \item Observe los valores de los índices de refracción de la Tabla 16-1. ¿En cuál de los medios que allí se mencionan se propaga la luz:
+    \begin{enumerate}[label=\emph{\alph*})]
+        \item con mayor velocidad?
+        \item con menor velocidad?
+    \end{enumerate}
+    
+        \item La figura de este ejercicio muestra un rayo luminoso que incide en la superficie de separación de dos medios (1) y (2). Muestre en la figura la dirección aproximada del rayo refractado suponiendo que:
+    \begin{enumerate}[label=\emph{\alph*})]
+        \item $n_2 > n_1$
+        \item $n_2 < n_1$
+    \end{enumerate}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.4\linewidth]{Imagenes/Ejercicio4p665.png}
+        \caption*{Ejercicio 2}
+        \label{}
+    \end{figure}
+
+    
+    
+    \begin{center}
+        {\Large \bf Ejercicios}
+    \end{center}
+
+        \item Un pequeño pez se encuentra dentro de un acuario. La figura de este ejercicio muestra rayos luminosos que parten del pez y se refractan al pasar del agua hacia el aire.
+    \begin{enumerate}[label=\emph{\alph*})]
+        \item Muestre, en la figura, dónde está situada la imagen del pez que ve el observador.
+        \item Esta imagen, ¿es real o virtual? Explique.
+        \item Si el observador deseara atrapar al pececillo con un arpón, ¿deberá dirigir el arma hacia un punto situado arriba o abajo de la posición donde ve el pez?
+    \end{enumerate}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Imagenes/Ejercicio6p671.png}
+        \caption*{Ejercicio 3}
+        \label{}
+    \end{figure}
+
+    \item 
+    \begin{enumerate}[label=\emph{\alph*})]
+        \item Consultando la Tabla 16-1 determine el valor del ángulo límite $L$ para un rayo de luz que pasa del vidrio hacia el agua.
+        \item Complete la figura de este ejercicio, mostrando qué sucede con los rayos $OA$, $OB$ y $OC$ después de incidir en la superficie de separación entre el vidrio y el agua.
+    \end{enumerate}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.6\linewidth]{Imagenes/Ejercicio9p671.png}
+        \caption*{Ejercicio 4}
+        \label{}
+    \end{figure}
+
+    \item Considere un diamante tallado y su imitación hecha de vidrio común.
+    \begin{enumerate}[label=\emph{\alph*})]
+        \item El ángulo límite entre el diamante y el aire, ¿es mayor o menor que el ángulo límite entre el vidrio y el aire?
+        \item Si ambos están iluminados con la misma fuente de luz, ¿en cuál de ellos se reflejará totalmente el mayor porcentaje de dicha luz en las caras internas?
+        \item Utilice la respuesta de la pregunta anterior para explicar por qué el diamante brilla más que la imitación de vidrio.
+    \end{enumerate}
+
+    \item Un rayo de luz solar incide en el punto $O$ de una gota esférica de lluvia, suspendida en el aire (el punto $C$ es el centro de la gota). La figura de este problema muestra cinco trayectorias dibujadas por un estudiante que trataba de representar el recorrido del rayo luminoso al atravesar la gota. Solamente una de estas trayectorias es la correcta. ¿Cuál de ellas es?
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.6\linewidth]{Imagenes/Ejercicio4p701.png}
+        \caption*{Ejercicio 6}
+        \label{}
+    \end{figure}
+
+    \item Una pequeña lámpara está instalada en la parte central del fondo de una piscina, cuya profundidad es de $2.0 \text{ m}$. Un disco de "unicel", de radio $R$, flota en la superficie del agua, como se indica en la figura de este problema. ¿Cuál debe ser el menor valor de $R$ para que la lámpara no pueda ser vista por un observador que se haya fuera del agua, cualquiera que sea la posición de dicho observador?
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Imagenes/Ejercicio13p703.png}
+        \caption*{Ejercicio 7}
+        \label{}
+    \end{figure}
+
+    \item Un rayo luminoso, $AB$, propagándose en el aire, incide en una de las caras de una lámina de vidrio de caras paralelas. Después de sufrir dos refracciones, el rayo de luz emerge de la lámina para el aire (rayo $CD$), como se muestra en la figura de este problema.
+    \begin{enumerate}[label=\emph{\alph*})]
+        \item Aplique la ley de Snell para determinar la relación entre los ángulos $\theta_1$ y $\theta_4$ mostrados en la figura.
+        \item Teniendo en cuenta la respuesta (a), ¿qué relación existe entre las direcciones de los rayos $AB$ y $CD$?
+    \end{enumerate}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Imagenes/Ejercicio17p703.png}
+        \caption*{Ejercicio 8}
+        \label{}
+    \end{figure}
+
+    \item El prisma del vidrio mostrado en la figura de este problema, situado en el aire, tiene índice de refracción igual a 1.50. Un rayo de luz monocromático incide perpendicularmente en una de las caras del prisma, emerge por la otra cara y se propaga nuevamente en el aire. Si el ángulo del prisma es de $30^\circ$ (\emph{véase figura}), determine la desviación angular sufrida por el rayo de luz al atravesar ese prisma.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.5\linewidth]{Imagenes/Ejercicio24p703.png}
+        \caption*{Ejercicio 9}
+        \label{}
+    \end{figure}
+
+    \item Una moneda está sumergida en el agua a una profundidad $H$. Si miramos desde arriba y en dirección vertical, ¿a qué profundidad vemos la moneda?
+    
+    \end{enumerate}
+\end{document}
